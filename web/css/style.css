@@ -240,7 +240,7 @@ input:focus {
 /*** main ****/
 .content_top{	
 	position:relative;
-	background: #ff742c; /* Old browsers */
+	background: #005166; /* Old browsers */
 	background: -moz-linear-gradient(top,  #ff742c 0%, #ff742c 0%, #ff8039 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff742c), color-stop(0%,#ff742c), color-stop(100%,#ff8039)); /* Chrome,Safari4+ */
 	background: -webkit-linear-gradient(top,  #ff742c 0%,#ff742c 0%,#ff8039 100%); /* Chrome10+,Safari5.1+ */
