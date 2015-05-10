@@ -243,12 +243,12 @@ input:focus {
 	background: #005166; /* Old browsers */
 	background: -moz-linear-gradient(top,  #ff742c 0%, #ff742c 0%, #ff8039 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff742c), color-stop(0%,#ff742c), color-stop(100%,#ff8039)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #ff742c 0%,#ff742c 0%,#ff8039 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  #ff742c 0%,#ff742c 0%,#ff8039 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #ff742c 0%,#ff742c 0%,#ff8039 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  #ff742c 0%,#ff742c 0%,#ff8039 100%); /* W3C */
+	background: -webkit-linear-gradient(top,  #3EB6C6 0%,#3EB6C6 0%,#ff8039 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #3EB6C6 0%,#3EB6C6 0%,#ff8039 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #3EB6C6 0%,#3EB6C6 0%,#ff8039 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #3EB6C6 0%,#3EB6C6 0%,#ff8039 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff742c', endColorstr='#ff8039',GradientType=0 ); /* IE6-9 */
-	border-bottom:30px solid #ff742c;
+	border-bottom:30px solid #025066;
 }
 .banner_desc{
 	padding:8em 0 3em 0;
@@ -546,20 +546,20 @@ input:focus {
 		transition: all 0.3s ease;
 }
 .comment_icons li a.comments{
-	background:#36AAA4 url(../images/sprites.png) no-repeat -125px 13px;
+	background:#025066 url(../images/sprites.png) no-repeat -125px 13px;
 	border-radius:3px 3px 0px 0px;
 }
 .comment_icons li a.comments:hover{
 	background-color:#229993;#5FC4BF
 }
 .comment_icons li a.email{
-	background:#80d3cf url(../images/sprites.png) no-repeat -178px 11px;
+	background:#5dbab5 url(../images/sprites.png) no-repeat -178px 11px;
 }
 .comment_icons li a.email:hover{
 	background-color:#5FC4BF;#55AAA5
 }
 .comment_icons li a.like{
-	background:#5dbab5 url(../images/sprites.png) no-repeat -231px 10px;
+	background:#025066 url(../images/sprites.png) no-repeat -231px 10px;
 	border-radius:0px 0px 3px 3px;
 }
 .comment_icons li a.like:hover{
