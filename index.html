@@ -120,11 +120,37 @@
           <img src="http://placehold.it/400x300&text=[img]">
         </div>
         <div class="large-5 columns">
-          <form id="myForm" action="comment.php" method="post"> 
-    Name: <input type="text" name="name" /> 
-    Comment: <textarea name="comment"></textarea> 
-    <input type="submit" value="Submit Comment" /> 
-</form>
+     <+div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 600px; height: 300px;">
+    <!-- Slides Container -->
+    <div u="slides" style="cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px; width: 600px; height: 300px;">
+        <div><img u="image" src="image1.jpg" /></div>
+        <div><img u="image" src="image2.jpg" /></div>
+    </div>
+</div>
+
+**JS:**
+
+<!-- it works the same with all jquery version from 1.x to 2.x -->
+<script src="/jquery/jssor.slider.mini.js"></script>
+<script>
+    jQuery(document).ready(function ($) {
+        //Define an array of slideshow transition code
+        var _SlideshowTransitions = [
+        {$Duration: 900, $Clip: 1},
+        {$Duration: 900, $Clip: 2}
+        ];
+        var options = {
+            $AutoPlay: true,
+            $SlideshowOptions: {
+                    $Class: $JssorSlideshowRunner$,
+                    $Transitions: _SlideshowTransitions,
+                    $TransitionsOrder: 1,
+                    $ShowLink: true
+                }
+        };
+        var jssor_slider1 = new $JssorSlider$('slider1_container', options);
+    });
+</script>
         </div>
         <div class="large-5 columns">
           <h4>This is a content section.</h4>
